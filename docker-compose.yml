@@ -1,0 +1,8 @@
+version: '2'
+services:
+  socket-io:
+    build: .
+    ports:
+     - "3001:3123"
+    environment:
+     - PORT=3123
